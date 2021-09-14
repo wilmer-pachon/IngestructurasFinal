@@ -185,7 +185,7 @@ header{
 	object-fit: cover;
 	z-index: -1;
 	width: 100vw;
-	height: 145vh;
+	height: 130vh;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -679,7 +679,7 @@ footer{
 	width: 90%;
 	margin: 0 auto;
 	display: flex;
-	padding: 50px 0;
+	padding: 40px 0;
 }
 
 .footer_info .footer_width{
@@ -764,6 +764,24 @@ footer{
 	margin-left: 10.5rem;
 }
 
+.whatsapp {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:13px;
+}
+
 /* SCROLL TOP ON */
 .scrolltop{
     position: fixed;
@@ -807,6 +825,12 @@ footer{
 	section{
 		padding: 7.9rem;
 	}
+
+	.logo{
+		visibility: inherit;
+	}
+
+	
 
 	.menu-toggle{
 		display: none;
@@ -927,6 +951,8 @@ footer{
 	.container-serv .card{
 		width: 400px;
 	}
+
+	
 }
 
 @media screen and (max-width: 768px){
@@ -934,6 +960,10 @@ footer{
 		max-width: 300px;
 		flex-direction: column;
 		height: auto;
+	}
+
+	.logo{
+		visibility: hidden;
 	}
 
 	.container-serv .card .imgBx{
