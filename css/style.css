@@ -52,6 +52,18 @@ p{
     font-size: 1.6rem;
 }
 
+/* h2{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+h1{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+} */
+
 .container{
     width: 100%;
     max-width: 122.5rem;
@@ -1017,6 +1029,14 @@ footer{
 
 	.gallery-section .gall{
 		flex: 50%;
+	}
+
+    .sub-headline{
+		font-size: 25vw;
+	}
+
+	.headline{
+		font-size: 10vw;
 	}
 
 	.logo{
