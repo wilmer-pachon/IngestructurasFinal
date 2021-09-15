@@ -27,3 +27,12 @@ const scrollTop = () => {
   else scrollTop.classList.remove('show-scroll');
 }
 window.addEventListener('scroll', scrollTop)
+
+// $(".gallery").magnificPopup({
+// delegate: 'a',
+// type: 'gall',
+// gallery:{
+//     enabled: true
+// }
+// });
+
