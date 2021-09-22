@@ -186,12 +186,18 @@ header{
 .hero{
 	width: 100%;
 	height: 100vh;
-	/* background: url("../img/head.jpg") center no-repeat; */
+	/* background: url("../img/INGE.gif") center no-repeat; */
 	background-size: cover;
 	display: flex;
 	align-items: center;
 	text-align: center;
 }
+
+/* #hero{
+	background: url("../img/ezgif.com-gif-maker.gif") center no-repeat;
+	background-size: cover;
+	display: flex;
+} */
 
 #video{
 	object-fit: cover;
