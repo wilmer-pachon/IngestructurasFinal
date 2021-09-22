@@ -247,9 +247,43 @@ header{
 	font-size: 10vw;
 	text-transform: uppercase;
 	font-weight: 300;
-	letter-spacing: .5rem;
+	letter-spacing: .1rem;
 	margin-right: -.5rem;
 	animation: scale .5s forwards;
+}
+
+.banner{
+	padding: 100px 120px;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner .text1{
+	max-width: 750px;
+}
+
+.banner .text1 h1{
+	/* font-size: 7em; */
+	color: #d1b412;
+}
+
+.banner .images{
+	max-width: 300%;
+	max-height: 300%;
+	/* filter: invert(1); */
+}
+
+.banner .text1 a{
+	font-size: 1.5em;
+	background: #134e9d;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 15px 15px;
+	margin-top: 15px;
+	letter-spacing: 2px;
 }
 
 .separator{
@@ -332,6 +366,7 @@ header{
 /* NOSOSTROS */
 .about {
 	padding: 110px 0;
+	padding-top: 20px;
 	background: #1c1d21;
 }
 
@@ -404,6 +439,7 @@ header{
 /* SERVICIOS */
 .our-services{
 	background: #fff;
+	padding-top: 10px;
 	background-size: cover;
 }
 
@@ -527,18 +563,20 @@ header{
 
 .container-card{
 	position: relative;
-	width: 1200px;
+	width: 1100px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
 	padding: 30px;
+	margin-top: 30px;
 	/* margin-top: 50px; */
 }
 
 .container-card .mycard{
 	position: relative;
 	max-width: 300px;
-	height: 215px;
+	height: 235px;
 	background: #fff;
 	margin: 30px 10px;
 	padding: 20px 15px;
@@ -562,9 +600,9 @@ header{
 .container-card .mycard .cimg{
 	position: relative;
 	width: 260px;
-	height: 260px;
-	top: -60px;
-	left: 20px;
+	height: 250px;
+	top: -65px;
+	left: 5px;
 	z-index: 1;
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 	/* left: 20px;
@@ -574,9 +612,9 @@ header{
 }
 
 .container-card .mycard .cimg img{
-	max-width: 90%;
-	height: 96%;
-	border-radius: 2px;
+	max-width: 100%;
+	/* height: 86%; */
+	border-radius: 4px;
 	/* display: flex; */
 }
 
@@ -590,10 +628,9 @@ header{
 	color: #111;
 	visibility: hidden;
 	opacity: 0;
-	transition: 0.3s ease-in-out;
-	
+	transition: 0.3s ease-in-out;	
 }
-
+ 
 .container-card .mycard:hover .cdetail{
 	visibility: visible;
 	opacity: 1;
@@ -609,7 +646,7 @@ header{
 
 .gallery-section{
 	width: 100%;
-	padding: 60px 0;
+	padding: 30px 0;
 }
 
 .inner-width{
@@ -639,18 +676,21 @@ header{
 }
 
 .gallery-section .gall img{
-	width: 120%;
-	height: 250px;
+	width: 200%;
+	height: 400px;
 	transition: 0.4s;
+	padding-left: 3rem;
+	padding-right: 2rem;
+	padding-top: 4rem;
 }
 
 .gallery-section .gall:hover img{
-	transform: scale(1.4) rotate(15deg);
+	transform: scale(1.1) rotate(15deg);
 }
 
 /* CONTACTO */
 #contact{
-	background: url("../img/portfolio/hader.jpg") center no-repeat;
+	background: url("../img/ricardo-gomez-angel-7bzbyafVTYg-unsplash.jpg") center no-repeat;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
@@ -1125,7 +1165,7 @@ header{
 
 	.headline{
 		font-size: 4.7rem;
-		letter-spacing: .8rem;
+		letter-spacing: .5rem;
 	}
 
 	.line{
@@ -1201,7 +1241,25 @@ header{
 		flex: 50%;
 	}
 
-	
+	.banner{
+		padding: 100px 20px 50px;
+		flex-direction: column-reverse;
+	}
+
+	.banner .images{
+		max-width: 100%;
+		height: 150%;
+		/* max-height: 15%;
+		padding-top: 50px; */
+		margin-left: 0;
+	}
+
+
+	.banner .text1 h1{
+		/* font-size: 7vw; */
+		margin-top: 20px;
+		padding-top: 10px;
+	}
 
     /* .sub-headline{
 		font-size: 25vw;
